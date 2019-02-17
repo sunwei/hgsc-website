@@ -1,0 +1,178 @@
+# Plugins
+plugins:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+
+# Site Settings
+title: "黄冈水产"
+email: "2305830970@qq.com"
+description: "黄冈水产有限责任公司以打造黄冈水产品牌形象为已任。让渔民卖好价，让全国买家放心买。"
+baseurl: ""
+url: "https://hgsc.ltd"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: "UA-96359388-4"
+googleAnalyticsSiteUrl: "hgsc.ltd"
+siteVerification: "www-hgsc-ltd"
+
+# Organizer Info
+organizerName: "黄冈水产"
+organizerAlternateName: "黄冈水产有限责任公司"
+organizerDescription: "一家专业专心为您服务的公司"
+organizerEmail: "2305830970@qq.com"
+organizerLogo: "/img/seo/organizer-logo.png"
+organizerLink: "https://hgsc.ltd"
+
+# Head
+metaKeywords: "黄冈, 水产, 黄冈水产, 养殖, 鱼苗, 公司"
+twitterAccount: "@szm_tech"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "首页"}
+ - {permalink: "/blog/", text: "博客"}
+ - {permalink: "/team/", text: "我们"}
+bottomNavigationLinks:
+ - {link: "/team", text: "来电咨询"}
+rightNavigationButtons:
+ - {link: "/team", text: "来电咨询"}
+
+# Hero Block
+heroImage: "hero.jpg"
+heroTitle: "黄冈水产专家 <typeout> 2017"
+eventDate: "常年提供花鲢、白鲢、草鱼、青鱼、边鱼、鲫鱼、鲤鱼、桂鱼、鱤鱼、黄颡鱼、大口鲢等（春片、夏花、水花、冬片、成鱼）各类鱼苗及淡水水产品养殖及鱼苗批发"
+typeoutTextValues: '"", "孙国林", "孙晓林"'
+typeoutFallback: "孙国林"
+heroButtons:
+ - {link: "/team", text: "来电咨询"}
+
+# About Block
+aboutTitle: "关于黄冈水产"
+aboutBlock:
+ - {title: "端到端服务", image: "e2e.png", text: "从电话咨询 - 下单 - 预付款 - 打包进度更新 - 运输 - 入池 - 回访 - 存活量验收 - 尾款，给您提供端到端服务。" }
+ - {title: "状态时时更新", image: "info.png", text: "所有阶段信息均可以通过网上或者电话直接查询。" }
+ - {title: "品质、安全保障", image: "safe.png", text: "可选提供养殖技术支持，存活量回访服务。" }
+
+# Statistic Block
+statisticBlockImage: "statistic.jpg"
+statisticBlock:
+ - {count: "30", specialCharacter: "+", info: "年", detail: "专业养殖经验"}
+ - {count: "11", specialCharacter: "+", info: "人", detail: "专业端到端团队"}
+ - {count: "24", specialCharacter: "+", info: "小时", detail: "全天专业服务"}
+
+# Latest News Block
+latestNewsTitle: "最新消息"
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 2
+rockstarSpeakersTitle: "专家团队"
+rockstarSpeakersButtonText: "不显示"
+
+# Location Block
+locationBlockTitle: "地址"
+eventLocationName: "黄冈市"
+eventLocationLink: "https://hgsc.ltd/"
+eventStreetAddress: "黄州区陶店乡幸福村鱼苗孵化基地"
+eventAddressLocality: "枫家湾"
+eventAddressLocalityRegion: "黄冈"
+eventPostalCode: "438000"
+eventAddressCountry: "中国"
+
+# Venue Block
+venueBlockTitle: "实物图"
+venueBigImage: "1.jpeg"
+venueSmallImage1: "2.jpeg"
+venueSmallImage2: "3.jpeg"
+venueSmallImage3: "5.jpg"
+venueTitle: "常年提供各种鱼苗"
+venueFeatures: ["春片，水花，伙片，寸片，冬片", "四大家鱼", "提供各种规格"]
+
+# Tweets Feed Block
+tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedTitle: "What's Up?"
+twitterHashTag: "devfest"
+twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+
+# Partners Block
+organizersTitle: "Organizers"
+partnersTitle: "Partners"
+partnersC4sponsorsButton: "Become a sponsor"
+
+# Subscribe Block
+subscribeImage: "subscribe.jpg"
+subscribeTitle: "Subscribe for updates"
+subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
+subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+
+# Tickets Block
+ticketsTitle: "合作流程"
+ticketsInfo: "以上流程为推荐流程，可在此基础上做一定调整。"
+ticketsOffers:
+ -
+  name: "来电洽谈／查询"
+  additionalInfo: "客服电话：18972720602"
+  soldOut: true
+  soldOutText: "咨询、下单、查看订单"
+ -
+  name: "确认订单"
+  additionalInfo: "运输方式 - 卡车／飞机，也可以选择自行运输"
+  soldOut: true
+  soldOutText: "确认品种，数量，金额，收／发货时间，运输方式"
+ -
+  name: "首付款"
+  additionalInfo: "付款分为首付款和尾款，运输前需结清首付款"
+  soldOut: true
+  soldOutText: "首付为项目总款50%"
+ -
+  name: "打包发货"
+  additionalInfo: "会根据当地天气，实际地形，合理分包，打氧，保证存活率"
+  soldOut: true
+  soldOutText: "可实时查看状态"
+ -
+  name: "确认收货"
+  additionalInfo: "可先确认查看货源"
+  soldOut: true
+  soldOutText: "需确认后，先付尾款才能入池"
+ -
+  name: "尾付款"
+  additionalInfo: "查看货源后，付尾款"
+  soldOut: true
+  soldOutText: "尾款为项目总款50%，交易完成"
+
+# Footer
+footerBlocks:
+ -
+  title: "友情链接"
+  links:
+   - {link: "https://sunzhongmou.com", text: "仲谋科技"}
+ -
+  title: "联系我们"
+  links:
+   - {text: "客服电话：18972720602"}
+   - {text: "微信：2305830970"}
+   - {text: "QQ：2305830970"}
+ -
+  title: "政府相关信息"
+  links:
+   - {permalink: "http://www.hgsc.gov.cn/", text: "黄冈水产局官方网址"}
+
+# Blog
+blogTitle: "最新文章"
+blogCommentsEnabled: false
+discusShortName: "hgsc"
+
+# Speakers List Block
+showSessions: true
+
+# Team Block
+teamBlockTitle: "关于我们"
+aboutUs: "我们来自水产富饶的黄冈市黄州区陶店乡幸福村六组。从1990就全身心投入水产养殖行业，迄今已经30年有余。本着诚信、专业、高质量的基本原则，已成功交付约千万订单。为了能更好的为顾客提供高质量，透明化的端到端服务。特将我们的业务拓展到线上，热烈欢迎广大新老客户光临。我们的口号是：携手共赢，共创未来！"

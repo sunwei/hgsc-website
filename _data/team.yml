@@ -1,0 +1,35 @@
+-
+  id: 0
+  name: "徐"
+  surname: "客服"
+  title: "熟悉线上线下全套流程"
+  thumbnailUrl: xuwan400.png
+  team: true
+- 
+  id: 1
+  name: "孙"
+  surname: "客服"
+  title: "熟悉线上线下全套流程"
+  thumbnailUrl: sunnian.png
+  team: true
+-
+  id: 2
+  name: "孙"
+  surname: "客服"
+  title: "熟悉线上线下全套流程"
+  thumbnailUrl: sunshun.png
+  team: true
+- 
+  id: 6
+  name: "孙"
+  surname: "晓林"
+  title: "水产养殖专家"
+  thumbnailUrl: sunxiaolin.png
+  subTeam: true
+-
+  id: 7
+  name: "孙"
+  surname: "国林"
+  title: "水产养殖专家"
+  thumbnailUrl: sunguolin.png
+  subTeam: true

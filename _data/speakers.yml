@@ -1,0 +1,26 @@
+- 
+  id: 1
+  name: "孙"
+  surname: "晓林"
+  company: "黄冈水产有限责任公司"
+  title: "水产养殖专家"
+  bio: "男 1964年2月24日湖北黄冈人，1990年开始接触淡水养殖行业，至今已有30多年，对水产事业有着深厚的感情，他热爱水产养殖业！"
+  thumbnailUrl: sunxiaolin.png
+  rockstar: true
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+DawidOstrowski/"}
+- 
+  id: 2
+  name: "孙"
+  surname: "国林"
+  company: "黄冈水产有限责任公司"
+  title: "水产养殖专家"
+  bio: "男 1968年10月1日湖北黄冈人，1990年开始接触淡水养殖行业，近30年，对水产事业有着深厚的感情，他热爱水产养殖业！"
+  thumbnailUrl: sunguolin.png
+  rockstar: true
+  ribbon: 
+    - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
+    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
+    - {name: "twitter", link: "https://twitter.com/mherych"}
